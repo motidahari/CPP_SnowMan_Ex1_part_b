@@ -14,8 +14,8 @@
 #include "snowman.hpp"
 #include <regex>
 #include <algorithm>
-
 using namespace std;
+
 const int ProperNumberOfCharacters = 8;
 const int ascii0 = 48;
 const int ascii1 = 49;
@@ -123,7 +123,6 @@ int checkValue(string x){
   return falseNum;
 }
 
-
 /**
  * getRandomNum - Produces a random number in the range 1-4
  * @param: size - The number of characters in the number
@@ -197,7 +196,6 @@ string snowman(int num){
     str.erase(remove(str.begin(), str.end(), '\r'), str.end());
     return str;
   }
-
 };
 
 
