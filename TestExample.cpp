@@ -27,7 +27,7 @@ using namespace std;
   }
 
 /**
- * This test runs on an array of CorrectNumbers (whose range is not 1-4)
+ * This test runs on an array of CorrectNumbers (whose range is  1-4)
  */
 TEST_CASE("Check Correct Numbers"){
     int size = sizeof(CorrectNumbers)/sizeof(CorrectNumbers[0]);
